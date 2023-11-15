@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
                     )
 
                     if (it.isNullOrEmpty()) {
-                        Text(text = "Loading todos...")
+                        Text(text = "Loading user...")
                     } else {
                         UserList(users = it)
                     }
